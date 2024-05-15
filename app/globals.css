@@ -74,4 +74,9 @@ a {
     line-height: 24px; /* 150% */
   }
 
+  .container {
+    padding: 80px 5px;
+  }
+
 }
+

@@ -32,6 +32,16 @@
     }
 }
 
+
+@media screen and (max-width: 700px) {
+
+    .flex{
+        padding: 0 10px;
+
+    }
+
+}
+
 .box{
     display: flex;
     align-items: center;

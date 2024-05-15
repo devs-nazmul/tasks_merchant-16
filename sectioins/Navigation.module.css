@@ -25,7 +25,22 @@
     .left a:not(:first-child) {
         display: none;
     }
+
+    .navContainer{
+        padding: 10px;
+    }
+
+    .left{
+        gap: 5px;
+    }
+
+    .flex .right{
+        gap: 5px;
+    }
+
+
 }
+
 
 .flex{
     display: flex;
