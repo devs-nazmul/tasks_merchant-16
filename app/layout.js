@@ -3,9 +3,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-
-};
 
 export const metadata = {
   title: "Merchant 16",
