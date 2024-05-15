@@ -10,11 +10,7 @@
 
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 70px;
-}
+
 
 .head{
     display: flex;
@@ -28,6 +24,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 32px;
 
+}
+
+@media screen and (max-width: 1000px) {
+    .feature{
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
 }
 
 .box{

@@ -23,9 +23,9 @@ const Pricing = () => {
 						<div className={css.box}>
 							
 							<div className={css.price_head}>
-								<Button>Gold Package</Button>
-								<p><span>$16</span> / Month </p>
-								<p>3 days trial/3$</p>
+								<Button size="small">Gold Package</Button>
+								<p><span className={css.euro}>$16</span> / Month </p>
+								<p className={css.trial}>3 days trial/3$</p>
 							</div>
 							
 							<div className={css.lists}>
@@ -36,16 +36,16 @@ const Pricing = () => {
 								<p><Image src={check} alt={"Check icon"}/> Lorem ipsum dolor sit amet</p>
 							</div>
 							
-							<Button> Buy Now </Button>
+							<Button className={css.buyBtn} size="large"> Buy Now </Button>
 						
 						</div>
 						
 						<div className={css.box}>
 							
 							<div className={css.price_head}>
-								<Button>Gold Package</Button>
-								<p><span>$16</span> / Month </p>
-								<p>3 days trial/3$</p>
+								<Button size="small">Gold Package</Button>
+								<p> <span className={css.euro}>$16</span> / Month </p>
+								<p className={css.trial}>3 days trial/3$</p>
 							</div>
 							
 							<div className={css.lists}>
@@ -56,7 +56,7 @@ const Pricing = () => {
 								<p><Image src={check} alt={"Check icon"}/> Lorem ipsum dolor sit amet</p>
 							</div>
 							
-							<Button> Buy Now </Button>
+							<Button className={css.buyBtn} size="large"> Buy Now </Button>
 						
 						</div>
 					</div>

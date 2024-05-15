@@ -28,12 +28,19 @@
     gap: 32px;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 750px) {
+    .pricing{
+        flex-direction: column;
+    }
 
 }
 
 .box{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding: 32px;
     gap: 32px;
     width: 384px;
@@ -48,6 +55,23 @@
     flex-direction: column;
     gap: 15px;
 }
+
+.euro{
+    color: var(--Soft-Skill-text, #F5F5F5);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.2px;
+}
+
+.trial{
+     color: var(--Soft-Skill-text, #F5F5F5);
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 32px; /* 133.333% */
+ }
 
 .lists{
     display: flex;
@@ -82,3 +106,9 @@
     gap: 12px;
     align-items: center;
 }
+
+.buyBtn{
+    align-self: stretch;
+    justify-content: space-around;
+}
+

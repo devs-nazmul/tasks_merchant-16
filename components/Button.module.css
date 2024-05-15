@@ -1,27 +1,94 @@
 .base{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 20px;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
 
 }
 
+.base img{
+    width: auto;
+}
+
 .primary{
+    justify-content: space-around;
+    border: 1px solid transparent;
+    outline: none;
+    color: var(--Soft-Skill-text, #F5F5F5);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    border-radius: 42px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    background: linear-gradient(90deg, #2CD4F8 0%, #9747FF 100%);
+    background-origin: border-box;
 
 }
 
 .second{
+    /*border: 1px solid var(--Soft-Skill-primary, #2CD4F8);*/
+    /*border-radius: 42px;*/
 
+    /*font-size: 16px;*/
+    /*font-style: normal;*/
+    /*font-weight: 600;*/
+    /*line-height: 24px; !* 150% *!*/
+    /*box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);*/
+
+    /*background: var(--Soft-Skill-primary, linear-gradient(90deg, #2CD4F8 0%, #9747FF 100%));*/
+    /*background-clip: text;*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
 }
 
 .outline{
 
+    border-radius: 42px;
+    border: 1px solid var(--Soft-Skill-primary, #2CD4F8);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    background: linear-gradient(90deg, #2CD4F8 0%, #9747FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .link{
+    background: none;
+    color: var(--Soft-Skill-text, #F5F5F5);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
 
 }
 
 .small{
-
+    padding: 8px 10px;
 }
 
 .medium{
 
+}
+
+.large{
+    padding: 16px 28px;
+    gap: 12px;
+
+    border-radius: 42px;
+    /*border: 1px solid var(--Soft-Skill-primary, #2CD4F8);*/
+    /*background: linear-gradient(90deg, #2CD4F8 0%, #9747FF 100%);*/
+    /*box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);*/
+
+    color: var(--Soft-Skill-text, #F5F5F5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
 }

@@ -7,7 +7,7 @@
 }
 
 .copyright{;
-    padding: 24px 0px;
+    padding: 24px;
     max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
@@ -25,6 +25,22 @@
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     gap: 150px;
+}
+
+@media screen and (max-width: 750px) {
+    .grid{
+        gap: 20px;
+        /*grid-template-columns: 1fr;*/
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .grid{
+        grid-template-columns: 1fr;
+        gap: 100px;
+    }
+
 }
 
 .link_head{

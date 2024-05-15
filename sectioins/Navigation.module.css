@@ -10,6 +10,17 @@
     padding: 18px 112px;
 }
 
+@media screen and (max-width: 1000px) {
+    .navContainer{
+        padding: 20px;
+    }
+
+
+    .flex .left {
+        gap: 20px;
+    }
+}
+
 .flex{
     display: flex;
     align-items: center;
@@ -21,6 +32,17 @@
     align-items: center;
     gap: 58px;
     justify-content: flex-start;
+
+    color: var(--Soft-Skill-text, #F5F5F5);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+.logo{
+    height: 48px;
+    width: auto;
 }
 
 .right{
@@ -28,4 +50,8 @@
     align-items: center;
     gap: 16px;
     justify-content: flex-end;
+}
+
+.flagBTN{
+    margin-left: -20px;
 }
