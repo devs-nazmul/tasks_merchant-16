@@ -1,0 +1,31 @@
+.sectionBG{
+    background: var(--Soft-Skill-secondary, #0B0C0E);    /*background: black;*/
+    z-index: 10;
+}
+
+.navContainer{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px 112px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    justify-content: flex-start;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: flex-end;
+}
