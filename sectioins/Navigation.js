@@ -16,6 +16,7 @@ const Navigation = () => {
 					
 					<div className={css.left}>
 						<Link href={"/"}> <Image className={css.logo} src={logo} alt="Logo" /> </Link>
+						
 						<Link href={"/"}> Home </Link>
 						<Link href={"/"}> Contact Us </Link>
 						<Link href={"/"}> About Us </Link>
