@@ -39,6 +39,7 @@
     .grid{
         grid-template-columns: 1fr;
         gap: 100px;
+        padding: 0 25px;
     }
 
 }
