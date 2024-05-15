@@ -5,6 +5,6 @@ export const TitleH1 = ({children}) => <h1 className={css.h1}> {children} </h1>
 
 
 export const TitleH2 = ({children}) => <h2 className={css.h2}> {children} </h2>
-export const MiniTitle = ({children}) => <div className={css.mini_title}> <Image src={dash} alt="Feature Dash"></Image> <h5> {children} </h5> </div>
+export const MiniTitle = ({children}) => <div className={css.mini_title}> <Image src={dash} alt="Feature Dash"></Image> <span> {children} </span> </div>
 
 
