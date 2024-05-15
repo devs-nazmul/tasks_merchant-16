@@ -1,5 +1,5 @@
 .sectionBG{
-    background: var(--Soft-Skill-secondary, #0B0C0E);    /*background: black;*/
+    background: var(--Soft-Skill-secondary, #0B0C0E);
     z-index: 10;
 }
 

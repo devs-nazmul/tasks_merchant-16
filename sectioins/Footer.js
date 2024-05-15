@@ -7,6 +7,17 @@ import Link from "next/link";
 
 
 const Footer = () => {
+	
+	const links = [
+		{link: "/", name: "About us"},
+		{link: "/", name: "Contact us"},
+		{link: "/", name: "Terms of Use"},
+		{link: "/", name: "Cookie Policy"},
+		{link: "/", name: "Cancellation Policy"},
+		{link: "/", name: "Unsubscribe"},
+		
+	]
+	
 	return (
 		<section className={css.sectionBG} id="Footer">
 			<div className="container">
@@ -19,13 +30,7 @@ const Footer = () => {
 						<p className={css.link_head}>Useful Links</p> <br/>
 						
 						<div className={css.links}>
-							<Link href="/">About us</Link>
-							<Link href="/">Contact us</Link>
-							<Link href="/">Terms of Use</Link>
-							<Link href="/">Privacy Policy</Link>
-							<Link href="/">Cookie Policy</Link>
-							<Link href="/">Cancellation Policy</Link>
-							<Link href="/">Unsubscribe</Link>
+							{links.map((link, id) => <Link key={id} href={link.link}> {link.name} </Link> )}
 						</div>
 					</div>
 					

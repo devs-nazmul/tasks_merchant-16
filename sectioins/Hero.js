@@ -1,5 +1,4 @@
 import css from "./Hero.module.css";
-import Link from "next/link";
 
 import {TitleH1} from "@/components/title";
 import {Button} from "@/components/Button";

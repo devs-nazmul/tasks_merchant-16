@@ -1,5 +1,4 @@
 import css from "./About.module.css";
-import Link from "next/link";
 
 import {MiniTitle, TitleH2} from "@/components/title";
 import Image from "next/image";

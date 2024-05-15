@@ -3,8 +3,6 @@
 }
 
 
-
-
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,6 +40,5 @@
 }
 
 .right img{
-    /*width: auto;*/
     height: auto;
 }

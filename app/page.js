@@ -10,18 +10,14 @@ import Footer from "@/sectioins/Footer";
 export default function Home() {
   return(
       <>
-        {/*<Navigation />*/}
-        {/*<Hero/>*/}
-          
+
           <Navigation />
           <Hero />
           <Feature/>
           <About/>
-          
           <Pricing />
           <Footer/>
-      
-      
+          
       </>
   )
 }
